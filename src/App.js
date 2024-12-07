@@ -1,10 +1,15 @@
+
 import "./styles.css";
+import Container from "react-bootstrap/Container";
+import Navigation from "./components/navigation/Navigation";
+
 
 export default function App() {
   return (
+    
     <div className="App">
-      <h1>0neAndrz</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Navigation/>
+      
     </div>
   );
 }
