@@ -1,0 +1,56 @@
+.home {
+    /* Overall container styles */
+    min-height: 100vh; /* Set minimum height to full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space content evenly */
+    align-items: center; /* Center content horizontally */
+    padding: 2rem; /* Add padding for spacing */
+  }
+  
+  .core-information {
+    /* Core information section styles */
+    margin-bottom: 2rem; /* Add margin to separate sections */
+  }
+  
+  .story-section {
+    /* Story section styles */
+    text-align: center; /* Center text horizontally */
+    margin-bottom: 2rem; /* Add margin to separate sections */
+  }
+  
+  h1, h2, h3 {
+    /* Heading styles */
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    /* Paragraph styles */
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  .profession {
+    /* Profession text styles */
+    color: #007bff; /* Blue color for profession */
+  }
+  
+  .Accordion {
+    /* Accordion styles */
+    margin-bottom: 1rem;
+  }
+  
+  Button {
+    /* Button styles */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  Button:hover {
+    background-color: #0062cc;
+  }
