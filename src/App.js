@@ -1,8 +1,7 @@
 
 import "./styles.css";
-import Container from "react-bootstrap/Container";
 import Navigation from "./components/navigation/Navigation";
-
+import HomeAnime from "./components/home/Home";
 
 export default function App() {
   return (
