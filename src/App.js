@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
       <Navigation />
       <Home/>
-      <UserProfileSettings/>
+      {/* <UserProfileSettings/> */}
     </div>
   );
 }
